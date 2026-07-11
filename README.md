@@ -6,16 +6,15 @@
 
 **Role:** Sole developer and long-term technical owner
 
-I designed and developed the original Ittihad Engineering website, and
-later led its complete redesign and production release. Rather than
-replacing someone else's work, this project involved evolving my own
-production codebase into a more maintainable, scalable, and polished
-product.
+I originally developed the Ittihad Engineering website a couple of years ago,
+and later led its complete redesign and production release. Rather than
+patching individual issues, I decided to treat the project as an opportunity to
+redesign the product holistically while evolving the existing production
+codebase.
 
-The redesign focused on improving user experience, information
-architecture, frontend architecture, performance, and long-term
-maintainability while keeping the site aligned with the company's
-industrial engineering identity.
+The redesign focused on improving user experience, frontend architecture,
+performance, content architecture, and long-term maintainability while keeping
+the site aligned with the company's industrial engineering identity.
 
 ## The Challenge
 
@@ -25,10 +24,10 @@ duplicated patterns, and opportunities for technical improvement.
 
 The redesign focused on:
 
-- Modernizing the visual design.
-- Improving information hierarchy.
-- Building reusable frontend architecture.
-- Strengthening engineering documentation and release workflows.
+- Modernizing the visual design
+- Improving information hierarchy
+- Building reusable frontend architecture
+- Strengthening engineering documentation and release workflows
 
 ## My Responsibilities
 
@@ -102,6 +101,6 @@ isolated UI changes.
 
 ## Links
 
-- Live website: [ittihad.engineering](https://ittihad.engineering)
-- GitHub: [github.com/kukiron](https://github.com/kukiron)
-- LinkedIn: [linkedin.com/in/kukiron](https://linkedin.com/in/kukiron)
+- [Live website](https://ittihad.engineering)
+- [GitHub Profile](https://github.com/kukiron)
+- [LinkedIn](https://linkedin.com/in/kukiron)
