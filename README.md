@@ -1,12 +1,11 @@
-# Ittihad Engineering Website Redesign and Production Release
+# From Redesign to Production: Ittihad Engineering
 
 ## Table of Contents
 
-- [Ittihad Engineering Website Redesign and Production Release](#ittihad-engineering-website-redesign-and-production-release)
+- [From Redesign to Production: Ittihad Engineering](#from-redesign-to-production-ittihad-engineering)
   - [Table of Contents](#table-of-contents)
   - [Executive Summary](#executive-summary)
   - [The Project](#the-project)
-    - [Before / After](#before--after)
   - [Engineering Goals](#engineering-goals)
   - [How the Project Evolved](#how-the-project-evolved)
     - [Maintainability](#maintainability)
@@ -15,12 +14,7 @@
     - [Production Readiness](#production-readiness)
     - [Cleanup and Long-Term Ownership](#cleanup-and-long-term-ownership)
   - [Outcome](#outcome)
-  - [Lessons Learned](#lessons-learned)
-    - [Production Polish Is Not Only Visual](#production-polish-is-not-only-visual)
-    - [Image Handling Deserves Early Design](#image-handling-deserves-early-design)
-    - [Styling Needs Ownership Rules](#styling-needs-ownership-rules)
-    - [Configuration Is Better Than Comments for Release State](#configuration-is-better-than-comments-for-release-state)
-    - [Release Documentation Is Engineering Work](#release-documentation-is-engineering-work)
+  - [What the Project Reinforced](#what-the-project-reinforced)
   - [What I Would Improve Next](#what-i-would-improve-next)
 
 ## Executive Summary
@@ -346,7 +340,7 @@ The strongest outcome was not a single feature. It was a production-ready
 frontend that became easier to understand, safer to change, and more deliberate
 about assets, styling, and release process.
 
-## Lessons Learned
+## What the Project Reinforced
 
 ### Production Polish Is Not Only Visual
 
