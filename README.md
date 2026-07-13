@@ -45,6 +45,7 @@ improving the codebase around it.
 | Stack | Next.js App Router, React, TypeScript, CSS Modules, and Tailwind utilities |
 | Assets | S3-hosted images with build-time metadata generation |
 | Deployment | Netlify-hosted production deployment |
+| Live site | [ittihad.engineering](https://ittihad.engineering/) |
 
 The site is structured as a focused single-page business website with dedicated
 sections for the landing hero, services, partners, FAQ, contact, footer, and
