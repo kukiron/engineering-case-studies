@@ -2,20 +2,18 @@
 
 ## Table of Contents
 
-- [From Redesign to Production: Ittihad Engineering](#from-redesign-to-production-ittihad-engineering)
-  - [Table of Contents](#table-of-contents)
-  - [Executive Summary](#executive-summary)
-  - [The Project](#the-project)
-  - [Engineering Goals](#engineering-goals)
-  - [How the Project Evolved](#how-the-project-evolved)
-    - [Maintainability](#maintainability)
-    - [Image Management](#image-management)
-    - [Styling Strategy](#styling-strategy)
-    - [Production Readiness](#production-readiness)
-    - [Cleanup and Long-Term Ownership](#cleanup-and-long-term-ownership)
-  - [Outcome](#outcome)
-  - [What the Project Reinforced](#what-the-project-reinforced)
-  - [What I Would Improve Next](#what-i-would-improve-next)
+- [Executive Summary](#executive-summary)
+- [The Project](#the-project)
+- [Engineering Goals](#engineering-goals)
+- [How the Project Evolved](#how-the-project-evolved)
+  - [Maintainability](#maintainability)
+  - [Image Management](#image-management)
+  - [Styling Strategy](#styling-strategy)
+  - [Production Readiness](#production-readiness)
+  - [Cleanup and Long-Term Ownership](#cleanup-and-long-term-ownership)
+- [Outcome](#outcome)
+- [What the Project Reinforced](#what-the-project-reinforced)
+- [What I Would Improve Next](#what-i-would-improve-next)
 
 ## Executive Summary
 
