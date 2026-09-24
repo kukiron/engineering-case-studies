@@ -38,14 +38,14 @@ more clearly and could be maintained safely after launch. The existing site was
 already live, so the redesign had to respect production constraints while
 improving the codebase around it.
 
-| Project detail | Summary |
-| --- | --- |
-| Role | Frontend engineering, redesign implementation, and production release |
-| Scope | Frontend structure, image pipeline, styling, cleanup, and release safety |
-| Stack | Next.js App Router, React, TypeScript, CSS Modules, and Tailwind utilities |
-| Assets | S3-hosted images with build-time metadata generation |
-| Deployment | Netlify-hosted production deployment |
-| Live site | [ittihad.engineering](https://ittihad.engineering/) |
+| Project detail | Summary                                                                    |
+| -------------- | -------------------------------------------------------------------------- |
+| Role           | Frontend engineering, redesign implementation, and production release      |
+| Scope          | Frontend structure, image pipeline, styling, cleanup, and release safety   |
+| Stack          | Next.js App Router, React, TypeScript, CSS Modules, and Tailwind utilities |
+| Assets         | S3-hosted images with build-time metadata generation                       |
+| Deployment     | Netlify-hosted production deployment                                       |
+| Live site      | [ittihad.engineering](https://ittihad.engineering/)                        |
 
 The site is structured as a focused single-page business website with dedicated
 sections for the landing hero, services, partners, FAQ, contact, footer, and
@@ -165,8 +165,8 @@ flowchart TD
   E --> F[Next.js Image]
 ```
 
-Centralized S3 keys provide a typed vocabulary shared by the manifest,
-generated metadata, content models, and rendering components.
+Centralized S3 keys provide a typed vocabulary shared by the manifest, generated
+metadata, content models, and rendering components.
 
 The build-time script fetches each manifest image, extracts dimensions, and
 creates a small blur placeholder:
@@ -291,9 +291,9 @@ manual step. Because Netlify runs the production build, the `prebuild` step also
 regenerates S3 image metadata during deployment.
 
 The trade-off is that metadata generation depends on the asset source being
-available and the manifest remaining valid during a clean build. I accepted
-that dependency because an explicit build failure is safer than deploying
-missing dimensions or stale image metadata.
+available and the manifest remaining valid during a clean build. I accepted that
+dependency because an explicit build failure is safer than deploying missing
+dimensions or stale image metadata.
 
 I also added a repo-specific local `pre-push` guard to reduce the risk of
 accidentally pushing from local `master` to the production remote. This is not a
