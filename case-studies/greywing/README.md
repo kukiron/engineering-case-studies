@@ -4,6 +4,15 @@ Greywing developed software for maritime operations. One of its central products
 
 **Note on confidentiality:** This account describes my Greywing work at a high level. Proprietary source code, internal implementation details, customer information, production data and product screenshots have been intentionally omitted. The diagrams are simplified, original explanations rather than depictions of the product.
 
+## Table of Contents
+
+- [The planning problem](#the-planning-problem)
+- [Keeping a dependent workflow coherent](#keeping-a-dependent-workflow-coherent)
+- [Progressive flight search](#progressive-flight-search)
+- [Reliability and delivery](#reliability-and-delivery)
+- [A second planning problem: Crew Matrix](#a-second-planning-problem-crew-matrix)
+- [What I would carry forward](#what-i-would-carry-forward)
+
 ## The planning problem
 
 A crew change is a chain of related decisions. The people involved and the vessel's route and timing narrow the candidate ports, but a port choice also needs to be considered alongside crew travel. For crew members who needed flights, each selected port led to searches between its relevant airport and their selected airports. Flight availability could then change how a crew manager assessed the ports. The planner needed to help users compare workable port-and-flight combinations while allowing them to revisit earlier choices. If a date or port changed, a flight selected under the old conditions could no longer be treated as current.
