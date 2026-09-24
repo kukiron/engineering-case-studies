@@ -55,7 +55,7 @@ supporting UI.
 
 | Before redesign | After redesign |
 | --- | --- |
-| [![Before redesign homepage screenshot](assets/ittihad-engineering/before-redesign.png)](https://deploy-preview-55--ittihad-engineering.netlify.app/) | [![After redesign homepage screenshot](assets/ittihad-engineering/after-redesign.png)](https://ittihad.engineering/) |
+| [![Before redesign homepage screenshot](../../assets/ittihad-engineering/before-redesign.png)](https://deploy-preview-55--ittihad-engineering.netlify.app/) | [![After redesign homepage screenshot](../../assets/ittihad-engineering/after-redesign.png)](https://ittihad.engineering/) |
 
 Both screenshots use the same viewport and capture settings for a consistent
 comparison. Each image links to the corresponding public version.
